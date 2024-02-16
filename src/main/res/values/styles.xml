@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppTheme.ContactListItem" parent="">
+        <item name="avatar_width">64dp</item>
+        <item name="avatar_height">64dp</item>
+    </style>
+</resources>

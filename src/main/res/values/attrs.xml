@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppTheme">
+        <attr name="contactListItemStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ContactListItem">
+        <attr name="avatar_width" format="dimension" />
+        <attr name="avatar_height" format="dimension" />
+    </declare-styleable>
+
+</resources>
