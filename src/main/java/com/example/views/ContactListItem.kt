@@ -34,7 +34,7 @@ class ContactListItem @JvmOverloads constructor(
     val subtitleView: TextView
     private val backgroundColor = ContextCompat.getColor(
         context,
-        com.google.android.material.R.color.material_dynamic_primary0
+        com.google.android.material.R.color.design_default_color_primary
     )
 
     init {
