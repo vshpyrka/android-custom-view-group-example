@@ -16,6 +16,7 @@ import android.widget.TextView
 import androidx.constraintlayout.utils.widget.ImageFilterView
 import androidx.core.content.ContextCompat
 import androidx.core.widget.TextViewCompat
+import com.example.customviewgroup.R
 import kotlin.math.max
 
 class ContactListItem @JvmOverloads constructor(
