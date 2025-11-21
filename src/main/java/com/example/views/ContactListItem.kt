@@ -33,10 +33,7 @@ class ContactListItem @JvmOverloads constructor(
 
     val titleView: TextView
     val subtitleView: TextView
-    private val backgroundColor = ContextCompat.getColor(
-        context,
-        com.google.android.material.R.color.design_default_color_primary
-    )
+    private val backgroundColor = Color.BLUE
 
     init {
         val attributes = intArrayOf(android.R.attr.listPreferredItemHeight)
@@ -84,7 +81,7 @@ class ContactListItem @JvmOverloads constructor(
             ellipsize = TextUtils.TruncateAt.MARQUEE
             TextViewCompat.setTextAppearance(this, android.R.style.TextAppearance_Large)
             gravity = Gravity.CENTER_VERTICAL
-            setTextColor(ContextCompat.getColor(context, com.google.android.material.R.color.accent_material_dark))
+            setTextColor(Color.DKGRAY)
         }.also {
             val params = MarginLayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT)
             params.marginStart = 16.0f.dpToPx(context).toInt()
@@ -95,7 +92,7 @@ class ContactListItem @JvmOverloads constructor(
             ellipsize = TextUtils.TruncateAt.MARQUEE
             TextViewCompat.setTextAppearance(this, android.R.style.TextAppearance_Small)
             setTypeface(typeface, Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(context, com.google.android.material.R.color.accent_material_light))
+            setTextColor(Color.LTGRAY)
         }.also {
             val params = MarginLayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT)
             params.marginStart = 16.0f.dpToPx(context).toInt()
